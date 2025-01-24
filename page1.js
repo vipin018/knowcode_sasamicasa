@@ -57,17 +57,3 @@ gsap.from("#nextPageButton", {
     delay: 3,
     ease: "elastic.out(1, 0.5)", 
 });
-
-gsap.from(".section",{
-    opacity:0,
-    duration:2,
-    delay:1,  // scale:0,
-  })
-  
-
-  
-  gsap.from(".header", {
-    opacity: 0,
-    duration: 2,
-    delay: 0.5, // scale:0,
-  });
